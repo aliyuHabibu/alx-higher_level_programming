@@ -5,7 +5,7 @@ for i in range(0, 9):
         if x > i:
             print("{}{}".format(i, x), end='')
             if not ((i == 8) and (x == 9)):
-                    print(", ",end='')
+                print(", ", end='')
         else:
             continue
 print()
