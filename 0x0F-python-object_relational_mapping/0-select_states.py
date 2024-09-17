@@ -6,22 +6,22 @@
 from sys import argv
 from MySQLdb import connect
 
-# Connecting to the database
+"""Connecting to the database"""
 conn = connect(host="localhost", port=3306, user=argv[1], password=argv[2], database=argv[3])
 
-# Querying the database
+"""Querying the database"""
 conn.query("""SELECT id, name FROM states ORDER BY states.id""")
 
-# Storing/collecting the address of the result
+"""Storing/collecting the address of the result"""
 result = conn.store_result()
 
-# Fetching database from the address
+"""Fetching database from the address"""
 vals = result.fetch_row(maxrows=0)
 
-# Checking if module was imported
+"""Checking if module was imported"""
 if __name__ == "__main__":
-    # Then print
+    """Then print"""
     for row in vals:
         print(row)
-    # Close the connection
+    """Close the connection"""
     conn.close()
