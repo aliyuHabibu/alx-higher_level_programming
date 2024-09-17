@@ -1,4 +1,4 @@
-#!/home/habeeb/venv/bin/python3
+#!/usr/bin/python3
 """Module to query a database and print all
     data in the database
 """
