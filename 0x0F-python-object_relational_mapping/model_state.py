@@ -9,6 +9,7 @@ from sqlalchemy import Column, String, Integer
 # Declaring the mapper
 Base = declarative_base()
 
+
 # Defining the class
 class State(Base):
     """ Class definition with class attributes """
