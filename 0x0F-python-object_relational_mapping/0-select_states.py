@@ -2,7 +2,7 @@
 """Module to query a database and print all
     data in the database
 """
-#import MySQLdb
+import MySQLdb
 from sys import argv
 from MySQLdb import connect
 
