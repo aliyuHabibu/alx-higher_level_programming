@@ -1,4 +1,4 @@
-#!/home/habeeb/venv/bin/python3
+#!/usr/bin/python3
 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
