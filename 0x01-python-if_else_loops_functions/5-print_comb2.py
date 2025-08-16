@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-for i in range(0, 10):
-    for x in range(0, 10):
-        print("{}{}".format(i, x), end='')
-        if not ((i == 9) and (x == 9)):
-            print(", ", end='')
+for i in range(0, 100):
+        print("0{}, ".format(i) if i < 10 else "{}, ".format(i) if not i == 99 else "{}".format(i), end='')
+print()
+        
