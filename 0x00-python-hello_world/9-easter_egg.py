@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-with open("zen", "r") as file:
-    for line in file:
+with open("zen", "r") as f:
+    for line in f:
         print(line, end='')
