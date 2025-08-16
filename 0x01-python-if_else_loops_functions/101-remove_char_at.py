@@ -10,3 +10,5 @@ def remove_char_at(str, n):
                     lt = list(copy)
                     lt[i] = ''
                     return ''.join(lt)
+    else:
+        return ''
