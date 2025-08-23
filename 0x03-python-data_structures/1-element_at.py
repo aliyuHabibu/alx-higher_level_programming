@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+"""
+    Function to get an element at
+    an index given.
+"""
+
+
 def element_at(my_list, idx):
     if idx < 0:
         return None
