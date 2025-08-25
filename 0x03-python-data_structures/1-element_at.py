@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
     Function to get an element at
     an index given.
