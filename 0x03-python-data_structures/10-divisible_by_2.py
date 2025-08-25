@@ -1,3 +1,11 @@
+#!/usr/bin/python3
+
+"""
+    Function to find both even and odd
+    number from a list of numbers given.
+"""
+
+
 def divisible_by_2(my_list=[]):
     answer_list = []
     for i in range(len(my_list)):
