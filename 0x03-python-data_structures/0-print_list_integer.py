@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
     Function to print the element
     of a list
