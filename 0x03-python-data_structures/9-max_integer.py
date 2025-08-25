@@ -12,5 +12,5 @@ def max_integer(my_list=[]):
     n = 0
     for i in range(len(my_list)):
         for x in range(len(my_list)):
-            if ((my_list[i] > my_list[x]) and (x == len(my_list) -1)):
+            if ((my_list[i] > my_list[x]) and (x == len(my_list) - 1)):
                 return my_list[i]
