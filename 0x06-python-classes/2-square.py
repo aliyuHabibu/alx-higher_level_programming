@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+
+"""
+    Module to define a class square
+"""
+
+
+class Square:
+    """
+        square:
+            Implementation of the class square
+            """
+    def __init__(self, size=0):
+        """ Initialization method called by all instances"""
+        self.__size = size
+        if not isinstance(size, int):
+            raise ValueError("size must be an integer")
+        elif (size < 0):
+            raise TypeError("size must be >= 0")
