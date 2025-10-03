@@ -84,4 +84,3 @@ class Square:
             return ''
         else:
             return ''
-
