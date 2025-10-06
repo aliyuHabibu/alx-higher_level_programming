@@ -9,7 +9,7 @@
 def roman_to_int(roman_string):
     symb = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
 
-    if type(roman_string) == str:
+    if type(roman_string) is str:
         rslt = 0
         i = 0
         while (i < len(roman_string)):
