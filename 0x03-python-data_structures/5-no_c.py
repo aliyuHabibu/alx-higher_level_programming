@@ -9,6 +9,8 @@
 def no_c(my_string):
     my_string = list(my_string)
     for i in my_string:
-        if i == 'C' or i == 'c':
+        if i == 'C':
+            my_string.remove(i)
+        elif i == 'c':
             my_string.remove(i)
     return ''.join(my_string)
