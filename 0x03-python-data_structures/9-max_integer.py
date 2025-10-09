@@ -9,8 +9,8 @@
 def max_integer(my_list=[]):
     if (len(my_list) == 0):
         return None
-    n = 0
-    for i in range(len(my_list)):
-        for x in range(len(my_list)):
-            if ((my_list[i] > my_list[x]) and (x == len(my_list) - 1)):
-                return my_list[i]
+    large = my_list[0]
+    for i in my_list:
+        if (i > large):
+            large = i
+    return large
