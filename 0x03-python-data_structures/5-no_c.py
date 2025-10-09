@@ -7,10 +7,14 @@
 
 
 def no_c(my_string):
-    my_string = list(my_string)
-    for i in my_string:
-        if i == 'C':
-            my_string.remove(i)
-        elif i == 'c':
-            my_string.remove(i)
-    return ''.join(my_string)
+    string = list(my_string)
+    i = 0
+    while i < len(string):
+        if string[i] == 'C':
+            string.remove(string[i])
+            i = i - 1
+        if string[i] == 'c':
+            string.remove(string[i])
+            i = i - 1
+        i = i + 1
+    return ''.join(string)
