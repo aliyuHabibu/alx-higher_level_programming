@@ -1,3 +1,11 @@
+#!/usr/bin/python3
+
+"""
+    Function to divide all elements of a given list
+    and return a list containing the answers
+"""
+
+
 def list_division(my_list_1, my_list_2, list_length):
     list_ans = []
     i, ans = 0, 0
