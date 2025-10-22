@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 
 """
-    Defining a class Rectangle
+    Module that define the class rectangle
 """
 
 
 class Rectangle:
+    """
+        Definition of the class rectangle
+    """
     pass
