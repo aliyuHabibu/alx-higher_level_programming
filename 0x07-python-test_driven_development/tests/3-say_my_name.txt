@@ -1,0 +1,35 @@
+This is the say_my_name testing file.
+====================================
+
+Using say_my_name.
+-----------------
+
+	>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+
+Now use it:
+
+	>>> say_my_name(2, 3) #doctest: +ELLIPSIS
+	Traceback (most recent call last):
+		...
+	TypeError: first_name must be a string
+
+	>>> say_my_name(2, "Me") #doctest: +ELLIPSIS
+	Traceback (most recent call last):
+		...
+	TypeError: first_name must be a string
+
+	>>> say_my_name("Me", 2) #doctest: +ELLIPSIS
+	Traceback (most recent call last):
+		...
+	TypeError: last_name must be a string
+
+	>>> say_my_name(None, "Me") #doctest: +ELLIPSIS
+	Traceback (most recent call last):
+		...
+	TypeError: first_name must be a string
+
+	>>> say_my_name("Me", None) #doctest: +ELLIPSIS
+	Traceback (most recent call last):
+		...
+	TypeError: last_name must be a string
