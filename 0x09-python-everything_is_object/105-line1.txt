@@ -1,0 +1,2 @@
+1
+Because only line 1 was executed
