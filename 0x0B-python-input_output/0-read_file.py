@@ -6,6 +6,11 @@
 
 
 def read_file(filename=""):
-    with open(filename) as rep:
+    """
+        Function that opens a file with
+        a read permission and read from the file
+        to the standard output.
+    """
+    with open(filename, encoding="utf-8") as rep:
         for char in rep:
             print(char, end='')
